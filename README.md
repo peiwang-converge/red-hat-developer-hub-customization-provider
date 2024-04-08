@@ -1,4 +1,4 @@
-# backstage-customization-provider
+# red-hat-developer-hub-customization-provider
 
 This is an example Express server, which serves an API.
 
@@ -17,8 +17,8 @@ If you hit <http://localhost:8080/tech-radar> you'll get a sample data for tech 
 
 Can use oc CLI as below or use import from git flow from OpenShift Developer Console
 
-    oc new-app https://github.com/janus-idp/backstage-customization-provider
-    oc expose svc/backstage-customization-provider
+    oc new-app https://github.com/redhat-developer/red-hat-developer-hub-customization-provider
+    oc expose svc/red-hat-developer-hub-customization-provider
 
 ## Acknowledgements
 
