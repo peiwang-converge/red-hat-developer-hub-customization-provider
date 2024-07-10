@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var homeRouter = require('./routes/home');
 var techRadarRouter = require('./routes/tech-radar');
+var learningPathsRouter = require('./routes/learning-paths');
 
 var app = express();
 
@@ -16,6 +17,7 @@ app.use(cookieParser());
 
 app.use('/', homeRouter);
 app.use('/tech-radar', techRadarRouter);
+app.use('/learning-paths', learningPathsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
